@@ -136,7 +136,7 @@
 
 
 #main > section.one {
-  background-image: url(imgg/catdog.jpg.f54907303b975b09ebcdb42dd56dda65.jpg);
+  background-image: url(imgg/Finalcover.jpg);
 }
 
 #main > section.cover {
@@ -218,7 +218,8 @@ h3{
 
 .navtop{
   text-align: center;
-  background-color: #e2e2e2a8;
+  /* background-color: #e2e2e2a8; */
+  background-color: #ebebeba8;
   padding: 2em 0 2em 0;
   font-size: 0.8em;
 color: white;
@@ -272,7 +273,7 @@ flex-wrap: nowrap;
   font-weight: 500;
 }
 .pimg{
-  background-image: url(imgg/il_570xN.1980807296_c27x.jpg);
+  background-image: url(imgg/POW.png);
   padding: 5em 6em;
   background-size: cover;
   background-position: left center;
@@ -283,7 +284,29 @@ flex-wrap: nowrap;
   background-color: rgba(189, 189, 189, 0.733);
   font-size: 1.25em;
   /* padding: 5em 6em; */
+  padding: 15px;
+  border-radius: 10px;
 }
 hr {
   width: 25em ;
 }
+
+
+ #grid-elm {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+  grid-gap: 100px;
+  padding: 100px 100px;
+} 
+
+.ele {
+  height: 100px;
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  /* padding: 50px 50px; */
+  /* margin: 7em; */
+  position: relative;
+  margin: 5em auto;
+  
+} 
