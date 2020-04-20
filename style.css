@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Barlow+Condensed:wght@300&family=Marck+Script&family=Oswald&family=Pacifico&display=swap");
+
+
 /* @media screen and (min-width: 961px) and (max-width: 1880px) { */
   @media screen and (min-width: 961px) {
   .container {
@@ -133,7 +136,7 @@
 
 
 #main > section.one {
-  background-image: url(imgg/y72avpydgjd31.png);
+  background-image: url(imgg/catdog.jpg.f54907303b975b09ebcdb42dd56dda65.jpg);
 }
 
 #main > section.cover {
@@ -181,12 +184,14 @@ p{
   border-radius: 0.35em;
   color: #fff !important;
   text-decoration: none;
-  padding: 0.75em 2.5em 0.75em 2.5em;
+  padding: 0.2em 2.5em 0.2em 2.5em;
   background-color: #5d5d5d7a;
   border: 0;
   border: 3px solid rgb(241, 241, 241);
   border-radius:20px;
   /* cursor: pointer; */
+  font-size:2em;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 
@@ -201,4 +206,51 @@ p{
 h3{
   color: rgb(78, 78, 78);
 
+}
+
+.navtop{
+  text-align: center;
+  background-color: #e2e2e2a8;
+  padding: 2em 0 2em 0;
+  font-size: 0.8em;
+color: white;
+display: flex;
+justify-content: left;
+flex-wrap: nowrap;
+}
+
+.imgSec{
+ 
+  display: inline-block;
+  /* background-color: tomato; */
+display: flex;
+justify-content: left;
+flex-wrap: nowrap;
+}
+.logo{
+  
+  position: relative;
+  height: 6em;
+ 
+}
+.Adopt{
+  font-size: 5em;
+  text-shadow:4px 4px rgb(80, 79, 79);
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Acme', sans-serif;
+
+  color: rgb(255, 255, 255);
+}
+.urbest{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+}
+.pimg{
+  background-image: url(imgg/il_570xN.1980807296_c27x.jpg);
+  padding: 5em 6em;
+  background-size: cover;
+  background-position: left center;
+  font-size: 1em;
+  
 }
